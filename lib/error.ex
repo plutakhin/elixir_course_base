@@ -1,2 +1,2 @@
-defmodule App.Error do
+defmodule Error do
 end

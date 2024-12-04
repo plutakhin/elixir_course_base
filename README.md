@@ -17,7 +17,7 @@
 - [Урок 1. Установка и настройка](lessons/lesson_01.md)
 - [Урок 2. Проверка кода](lessons/lesson_02.md)
 - [Урок 3. Примитивы языка](lessons/lesson_03.md)
-- (TODO) [Урок 4. Модули и функции](lessons/lesson_04.md)
+- [Урок 4. Модули и функции](lessons/lesson_04.md)
 - [Урок 5. Работа со списками](lessons/lesson_05.md)
 - [Урок 6. Работа с массивами](lessons/lesson_06.md)
 - [Урок 7. Структура](lessons/lesson_07.md)

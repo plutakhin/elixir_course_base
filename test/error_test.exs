@@ -1,6 +1,5 @@
-defmodule App.ErrorTest do
+defmodule ErrorTest do
   use App.DataCase
-  alias App.Error
 
   test "вызов исключения без параметров" do
     try do
