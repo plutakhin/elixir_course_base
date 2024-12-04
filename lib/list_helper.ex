@@ -1,4 +1,4 @@
-defmodule App.ListHelper do
+defmodule ListHelper do
   def init() do
   end
 

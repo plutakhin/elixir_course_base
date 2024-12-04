@@ -1,4 +1,4 @@
-defmodule App.DataCase do
+defmodule Support.DataCase do
   @moduledoc false
   use ExUnit.CaseTemplate
 

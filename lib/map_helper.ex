@@ -1,4 +1,4 @@
-defmodule App.MapHelper do
+defmodule MapHelper do
   def init() do
   end
 

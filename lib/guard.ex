@@ -1,4 +1,4 @@
-defmodule App.Guard do
+defmodule Guard do
   # Требуется избавиться от блока if...end в методе используя guard
   def positive?(value) do
     if is_integer(value) and value > 0 do

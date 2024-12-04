@@ -1,7 +1,6 @@
-defmodule App.PatternMatchTest do
+defmodule PatternMatchTest do
   @moduledoc false
-  use App.DataCase
-  alias App.PatternMatch
+  use Support.DataCase
 
   test "first_of_list function returns the first element of a list" do
     assert PatternMatch.first_of_list([1, 2, 3]) == 1

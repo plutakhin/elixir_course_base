@@ -1,6 +1,5 @@
-defmodule App.ListHelperTest do
-  use App.DataCase
-  alias App.ListHelper
+defmodule ListHelperTest do
+  use Support.DataCase
 
   test "init ListHelper" do
     assert ListHelper.init() == []

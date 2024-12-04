@@ -1,2 +1,2 @@
-defmodule App.Struct do
+defmodule Struct do
 end

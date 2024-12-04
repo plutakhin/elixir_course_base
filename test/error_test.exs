@@ -1,5 +1,5 @@
 defmodule ErrorTest do
-  use App.DataCase
+  use Support.DataCase
 
   test "вызов исключения без параметров" do
     try do

@@ -1,6 +1,5 @@
-defmodule App.StructTest do
-  use App.DataCase
-  alias App.Struct
+defmodule StructTest do
+  use Support.DataCase
 
   test "should create empty struct" do
     struct = %Struct{}

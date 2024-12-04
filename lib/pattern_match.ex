@@ -1,4 +1,4 @@
-defmodule App.PatternMatch do
+defmodule PatternMatch do
   # Переменная list явно лишняя, получить первый элемент можно прямо в аргументах:
   def first_of_list(list) do
     [first | _tail] = list

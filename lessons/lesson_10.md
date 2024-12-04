@@ -7,15 +7,15 @@
 mix compile
 
 == Compilation error in file lib/struct.ex ==
-** (ArgumentError) the following keys must also be given when building struct App.Struct: [:title]
+** (ArgumentError) the following keys must also be given when building struct Struct: [:title]
 ```
 Такие исключения еще до запуска приложения позволяют правильно организовать код.
 
 В момент выполнения так же могут быть выброшены исключения, например вызов несуществующей функции модуля:
 ```elixir
-iex(1)> App.Struct.bad_function_name()
-** (UndefinedFunctionError) function App.Struct.bad_function_name/0 is undefined or private
-    (app 0.1.0) App.Struct.bad_function_name()
+iex(1)> Struct.bad_function_name()
+** (UndefinedFunctionError) function Struct.bad_function_name/0 is undefined or private
+    (app 0.1.0) Struct.bad_function_name()
     iex:1: (file)
 ```
 

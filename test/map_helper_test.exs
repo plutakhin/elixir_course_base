@@ -1,6 +1,5 @@
-defmodule App.MapHelperTest do
-  use App.DataCase
-  alias App.MapHelper
+defmodule MapHelperTest do
+  use Support.DataCase
 
   test "init" do
     assert MapHelper.init() == %{}

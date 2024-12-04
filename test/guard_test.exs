@@ -1,6 +1,5 @@
-defmodule App.GuardTest do
-  use App.DataCase, async: false
-  alias App.Guard
+defmodule GuardTest do
+  use Support.DataCase, async: false
 
   test "positive?" do
     assert Guard.positive?(1) == "positive"
